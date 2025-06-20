@@ -113,10 +113,34 @@ sns.histplot(de['AnnualIncome'], bins = 10)
 plt.show()
 ```
 **Result:**
-![Histogram for Annual Income]()
+![Histogram for Annual Income](Histogram.png)
 
+**Insight:**
+Because the column is skewed I used the median as my average. On average, each applicant earns a yearly salary of $48,566. Majority of the applicants earn $15,000 yearly.
 
+## Bivariate Analysis & Insights
+### Categorical & Categorical Variables
+These are the categorical columns I performed univariate analysis on: Education Level, Employment Status, etc.
 
-
+I used cross tabulation to find the relationship between the Education Level & Employment Status columns using:
+```
+pd.crosstab(de['EmploymentStatus'], de['EducationLevel'])
+```
+**Result:**
+```
+EducationLevel	Associate	Bachelor	Doctorate	High School	Master
+EmploymentStatus					
+Employed	3500	5045	750	5283	2458
+Self-Employed	262	575	111	315	310
+Unemployed	272	434	93	310	282
+```
+**Visualization:**
+**Clustered Bar Chart:**
+```
+pd.crosstab(de['EmploymentStatus'], de['EducationLevel']).plot(kind='bar')
+plt.show()
+```
+**Result:**
+![Clustered Bar Chart for Employment status and Education Level relationship]()
 
 
