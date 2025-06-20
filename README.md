@@ -77,7 +77,7 @@ plt.show()
 ```
 **Result:**
 
-
+![Bar Chart for Marital Status](images/bar1.png)
 
 
 
