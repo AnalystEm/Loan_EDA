@@ -79,12 +79,41 @@ plt.show()
 
 ![Bar Chart for Marital Status](images/bar1.png)
 
+**Insight:**
 
+Married couples make up the most loan applicants with 10,000 applications. While widowed people have the least applications. 
 
+### Numerical Variable
+These are the numerical columns I performed univariate analysis on: Annual Income, etc.
 
+I found the measure of central tendency for the Annual Income column using:
+```
+mean = de['AnnualIncome'].mean()
+median = de['AnnualIncome'].median()
+mode = de['AnnualIncome'].mode()
 
+print('mean =',mean)
+print('median =',median)
+print('mode =',mode)
+```
 
+**Result:**
+```
+mean = 59161.47355
+median = 48566.0
+mode = 0    15000
+dtype: int64
+```
 
+### Visualization
+**Histogram:**
+
+```
+sns.histplot(de['AnnualIncome'], bins = 10)
+plt.show()
+```
+**Result:**
+![Histogram for Annual Income]()
 
 
 
