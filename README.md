@@ -113,7 +113,7 @@ sns.histplot(de['AnnualIncome'], bins = 10)
 plt.show()
 ```
 **Result:**
-![Histogram for Annual Income](Histogram.png)
+![Histogram for Annual Income](images/Histogram.png)
 
 **Insight:**
 Because the column is skewed I used the median as my average. On average, each applicant earns a yearly salary of $48,566. Majority of the applicants earn $15,000 yearly.
@@ -141,6 +141,11 @@ pd.crosstab(de['EmploymentStatus'], de['EducationLevel']).plot(kind='bar')
 plt.show()
 ```
 **Result:**
-![Clustered Bar Chart for Employment status and Education Level relationship]()
+![Clustered Bar Chart for Employment status and Education Level relationship](images/clusteredbarchart.png)
 
+**Insight:**
+
+The education level that have the highest number of employed people is High School. While the least is Doctorate.
+
+## Conclusion
 
