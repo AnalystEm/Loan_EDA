@@ -141,7 +141,7 @@ pd.crosstab(de['EmploymentStatus'], de['EducationLevel']).plot(kind='bar')
 plt.show()
 ```
 **Result:**
-![Clustered Bar Chart for Employment status and Education Level relationship](clusteredbarchart.png)
+![Clustered Bar Chart for Employment status and Education Level relationship](images/clusteredbarchart.png)
 
 **Insight:**
 
