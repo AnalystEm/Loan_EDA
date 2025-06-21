@@ -141,7 +141,7 @@ pd.crosstab(de['EmploymentStatus'], de['EducationLevel']).plot(kind='bar')
 plt.show()
 ```
 **Result:**
-![Clustered Bar Chart for Employment status and Education Level relationship](images/clusteredbarchart.png)
+![Clustered Bar Chart for Employment status and Education Level relationship]([images/clusteredbarchart.png](https://private-user-images.githubusercontent.com/121545038/457544858-f1673018-7c51-4b43-9d7a-6b23e566f555.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTA0NzI0NzAsIm5iZiI6MTc1MDQ3MjE3MCwicGF0aCI6Ii8xMjE1NDUwMzgvNDU3NTQ0ODU4LWYxNjczMDE4LTdjNTEtNGI0My05ZDdhLTZiMjNlNTY2ZjU1NS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNjIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDYyMVQwMjE2MTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03ZTU5ZmVkNjVkZjJjMTQ1MjNlYTU3YjdjY2MyMjg1NDQ0OGJhZTAyZmE2MDU1OTRjNDFmOGE4MjQxY2M3Y2IzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.PYjxKWZsiq_l-FmetIssCmRcV2XQrv3wjE2ek58_8CI))
 
 **Insight:**
 
